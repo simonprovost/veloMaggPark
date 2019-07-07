@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-native-xml2js": "^1.0.3"
+  }
+}

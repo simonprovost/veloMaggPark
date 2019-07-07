@@ -1,0 +1,350 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190630.170455.22601.0.001.json",
+    "dumpEventTime": "2019-06-30T17:04:55Z",
+    "dumpEventTimeStamp": "1561907095372",
+    "processId": 22601,
+    "cwd": "/home/simon/delivery/veloMagAvailability/veloMagAvailability",
+    "commandLine": [
+      "/usr/bin/node",
+      "/home/simon/.npm-global/bin/expo-cli",
+      "start"
+    ],
+    "nodejsVersion": "v11.15.0",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.12",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "11.15.0",
+      "v8": "7.0.276.38-node.19",
+      "uv": "1.27.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "67",
+      "nghttp2": "1.37.0",
+      "napi": "4",
+      "llhttp": "1.1.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1b",
+      "cldr": "34.0",
+      "icu": "63.1",
+      "tz": "2018e",
+      "unicode": "11.0"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v11.15.0/node-v11.15.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v11.15.0/node-v11.15.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.18.0-22-generic",
+    "osVersion": "#23~18.04.1-Ubuntu SMP Thu Jun 6 08:37:25 UTC 2019",
+    "osMachine": "x86_64",
+    "host": "simon-ThinkPad-T470s"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000a702fd",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x000000000095ccb3",
+      "symbol": "node::OnFatalError(char const*, char const*) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b3dbde",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b3de14",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000f3ce52",
+      "symbol": " [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000f3cf58",
+      "symbol": "v8::internal::Heap::CheckIneffectiveMarkCompact(unsigned long, double) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000f49678",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000f4a18b",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000f4cec1",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationSpace, v8::internal::AllocationAlignment) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000000000f170f4",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationSpace) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x00000000011cd3fe",
+      "symbol": "v8::internal::Runtime_AllocateInNewSpace(int, v8::internal::Object**, v8::internal::Isolate*) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x000014335a34fc5d",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1522688000,
+    "totalCommittedMemory": 1520841568,
+    "usedMemory": 1421876936,
+    "availableMemory": 20068264,
+    "memoryLimit": 1526909922,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 524288,
+        "committedMemory": 42224,
+        "capacity": 515584,
+        "used": 33520,
+        "available": 482064
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 32521984,
+        "capacity": 16498688,
+        "used": 1231552,
+        "available": 15267136
+      },
+      "old_space": {
+        "memorySize": 1449332736,
+        "committedMemory": 1449186960,
+        "capacity": 1403790128,
+        "used": 1403501016,
+        "available": 289112
+      },
+      "code_space": {
+        "memorySize": 3145728,
+        "committedMemory": 3029568,
+        "capacity": 2713536,
+        "used": 2713536,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 28848128,
+        "committedMemory": 28778144,
+        "capacity": 8495040,
+        "used": 8495040,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 7282688,
+        "committedMemory": 7282688,
+        "capacity": 9932224,
+        "used": 5902272,
+        "available": 4029952
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 102.439,
+    "kernelCpuSeconds": 3.24662,
+    "cpuConsumptionPercent": 9.7048,
+    "maxRss": 1589485568,
+    "pageFaults": {
+      "IORequired": 83,
+      "IONotRequired": 840562
+    },
+    "fsActivity": {
+      "reads": 15464,
+      "writes": 184
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 58.6261,
+    "kernelCpuSeconds": 2.10549,
+    "cpuConsumptionPercent": 5.57682,
+    "fsActivity": {
+      "reads": 13816,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "npm_package_dependencies_react_native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "npm_package_dependencies_react_native_xml2js": "^1.0.3",
+    "LC_TIME": "fr_FR.UTF-8",
+    "USER": "simon",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.16.0 npm/? node/v11.15.0 linux x64",
+    "TEXTDOMAIN": "im-config",
+    "XDG_SEAT": "seat0",
+    "npm_package_scripts_android": "expo start --android",
+    "npm_config_bin_links": "true",
+    "SSH_AGENT_PID": "2107",
+    "XDG_SESSION_TYPE": "x11",
+    "npm_node_execpath": "/usr/bin/node",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "1",
+    "HOME": "/home/simon",
+    "QT4_IM_MODULE": "xim",
+    "DESKTOP_SESSION": "ubuntu",
+    "npm_config_init_license": "MIT",
+    "GNOME_SHELL_SESSION_MODE": "ubuntu",
+    "GRADLE_HOME": "/opt/gradle/gradle-5.1",
+    "GTK_MODULES": "gail:atk-bridge",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_package_dependencies_react_xml_parser": "^1.1.2",
+    "npm_config_version_tag_prefix": "v",
+    "LC_MONETARY": "fr_FR.UTF-8",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "COLORTERM": "truecolor",
+    "npm_package_scripts_web": "expo start --web",
+    "IM_CONFIG_PHASE": "2",
+    "MANDATORY_PATH": "/usr/share/gconf/ubuntu.mandatory.path",
+    "GTK_IM_MODULE": "ibus",
+    "LOGNAME": "simon",
+    "DESKTOP_AUTOSTART_ID": "10ae267888ba009517156185363091239800000020110007",
+    "npm_package_private": "true",
+    "npm_config_prefix": "/home/simon/.npm-global",
+    "DEFAULTS_PATH": "/usr/share/gconf/ubuntu.default.path",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "TERM": "xterm-256color",
+    "USERNAME": "simon",
+    "XDG_SESSION_ID": "2",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "npm_package_scripts_start": "expo start",
+    "npm_config_ignore_scripts": "",
+    "WINDOWPATH": "2",
+    "PATH": "/home/simon/.npm-global/lib/node_modules/expo-cli/node_modules/@expo/xdl/binaries/linux/adb:/tmp/yarn--1561906006115-0.8251027239718915:/home/simon/delivery/veloMagAvailability/veloMagAvailability/node_modules/.bin:/home/simon/.config/yarn/link/node_modules/.bin:/home/simon/.npm-global/bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/home/simon/.local/bin:{/opt/gradle/gradle-5.1}/bin:{/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin}:/home/simon/Documents/CLION/clion-2019.1/bin:/home/simon/Documents/idea-IC-191.6183.87/bin",
+    "NODE": "/usr/bin/node",
+    "SESSION_MANAGER": "local/simon-ThinkPad-T470s:@/tmp/.ICE-unix/2011,unix/simon-ThinkPad-T470s:/tmp/.ICE-unix/2011",
+    "npm_package_name": "",
+    "npm_package_dependencies_react_native_maps": "^0.24.2",
+    "GNOME_TERMINAL_SCREEN": "/org/gnome/Terminal/screen/ea322642_61a8_4311_9951_797b05781d88",
+    "LC_ADDRESS": "fr_FR.UTF-8",
+    "XDG_MENU_PREFIX": "gnome-",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "DISPLAY": ":0",
+    "npm_package_dependencies_react_native_web": "^0.11.4",
+    "npm_package_scripts_eject": "expo eject",
+    "LANG": "en_US.UTF-8",
+    "LC_TELEPHONE": "fr_FR.UTF-8",
+    "XDG_CURRENT_DESKTOP": "ubuntu:GNOME",
+    "npm_package_dependencies_react_dom": "^16.8.6",
+    "GNOME_TERMINAL_SERVICE": ":1.86",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+    "XDG_SESSION_DESKTOP": "ubuntu",
+    "XMODIFIERS": "@im=ibus",
+    "npm_lifecycle_script": "expo start",
+    "npm_package_main": "node_modules/expo/AppEntry.js",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "npm_package_scripts_ios": "expo start --ios",
+    "npm_config_version_git_message": "v%s",
+    "LC_NAME": "fr_FR.UTF-8",
+    "SHELL": "/usr/bin/fish",
+    "npm_lifecycle_event": "start",
+    "npm_package_version": "",
+    "GDMSESSION": "ubuntu",
+    "QT_ACCESSIBILITY": "1",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"start\"],\"original\":[\"start\"]}",
+    "LC_MEASUREMENT": "fr_FR.UTF-8",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "LC_IDENTIFICATION": "fr_FR.UTF-8",
+    "TEXTDOMAINDIR": "/usr/share/locale/",
+    "npm_config_strict_ssl": "true",
+    "QT_IM_MODULE": "ibus",
+    "XDG_VTNR": "2",
+    "PWD": "/home/simon/delivery/veloMagAvailability/veloMagAvailability",
+    "npm_execpath": "/usr/share/yarn/bin/yarn.js",
+    "npm_package_devDependencies_babel_preset_expo": "^5.1.1",
+    "npm_package_dependencies_expo": "^33.0.0",
+    "CLUTTER_IM_MODULE": "xim",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "XDG_DATA_DIRS": "/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "LC_NUMERIC": "fr_FR.UTF-8",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "LC_PAPER": "fr_FR.UTF-8",
+    "VTE_VERSION": "5202",
+    "INIT_CWD": "/home/simon/delivery/veloMagAvailability/veloMagAvailability",
+    "npm_package_dependencies_react": "16.8.3"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 16777216,
+      "hard": 16777216
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 4096,
+      "hard": 4096
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 31010,
+      "hard": 31010
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/lib/x86_64-linux-gnu/librt.so.1",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/lib/x86_64-linux-gnu/libnss_files.so.2",
+    "/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2",
+    "/lib/x86_64-linux-gnu/libnss_dns.so.2",
+    "/lib/x86_64-linux-gnu/libresolv.so.2"
+  ]
+}
