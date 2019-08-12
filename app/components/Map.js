@@ -105,7 +105,6 @@ export default class Map extends Component
 			alignItems:'center',
 			justifyContent:'center',
 			backgroundColor:'transparent',
-			marginBottom: 200,
 		};
 
 		return (

@@ -141,24 +141,30 @@ class App extends Component {
 	render () {
 
 		return (
-			<View style={styles.container2}>
+			<View style={styles.container}>
+				<Header
+					statusBarProps={{ barStyle: 'light-content' }}
+					barStyle="light-content"
+					centerComponent={<Text h3 style={{color: 'white', }}>{"Velo Magg Park"}</Text>}
+					containerStyle={{
+						backgroundColor: '#6495ED',
+						justifyContent: 'space-around',
+						height: "10%",
+						borderBottomRightRadius: 60,
+						borderBottomLeftRadius: 60,
+						position: 'absolute',
+						top: 0, left: 0, right: 0,
+						zIndex: 1,
+					}}
+				/>
 				<SafeAreaView style={styles.container}>
-					<Header
-						statusBarProps={{ barStyle: 'light-content' }}
-						barStyle="light-content"
-						centerComponent={<Text h3 style={{color: 'white', }}>{"Velo Magg Park"}</Text>}
-						containerStyle={{
-							backgroundColor: '#6495ED',
-							justifyContent: 'space-around',
-							height: "10%",
-						}}
-					/>
 					<Map
 						region={region}
 						places={this.state.parkMarkers}
 					/>
 
 				</SafeAreaView>
+
 
 			</View>
 
@@ -172,6 +178,7 @@ const styles = StyleSheet.create({
 	container: {
 		width: '100%',
 		height: '100%',
+		zIndex: -1,
 	},
 	container2: {
 		flex: 1,
