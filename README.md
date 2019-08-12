@@ -16,8 +16,8 @@ If you want to build the app in APK/IOS : You will need to have expo in your com
 
 # Few functionality
 
-![view markers]()
-![check button localization]()
+![view markers](./2.gif)
+![check button localization](./1.gif)
 
 # Installation
 
