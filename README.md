@@ -1,11 +1,11 @@
 # veloMaggPark
-Where would you can let your bike from Tam in Montpellier
+Where should you let your bike from Tam in Montpellier
 
-You have an option in the official app of the Tam Montpellier, it's a personal experience to done this type of applications.
+You have an option in the official app of the Tam Montpellier, it's a personal experience to improve my skill with this king of application.
 
-* You have all flags in color which is a park for Velo mag, you can click on a flag to view this information (places available and many other things...)
+* You have all flags in color which show a park of Velo mag, you can tap on any flag to view his information (places available, cb available and so on..)
 
-* You have also a button to zoom on your localization to view the parks around you.
+* You have also a button which zoom on your localization to watch the parks around you.
 
 Build:
 * Android : OK.
