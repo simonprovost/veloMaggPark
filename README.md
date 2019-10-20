@@ -1,4 +1,11 @@
 # veloMaggPark
+
+<p align="center">
+<kbd>
+  <img src="http://commercial.tam-voyages.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/4/5/450x300_extension-velomagg-olivier-octobre.png">
+</kbd>
+</p>
+
 Where should you let your bike from Tam in Montpellier
 
 You have an option in the official app of the Tam Montpellier, it's a personal experience to improve my skill with this king of application.
