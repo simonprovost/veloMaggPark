@@ -10,9 +10,9 @@ Where should you let your bike from Tam in Montpellier
 
 You have an option in the official app of the Tam Montpellier, it's a personal experience to improve my skill with this kind of application.
 
-* You have all flags in color which show a park of Velo mag, you can tap on any flag to view his information (places available, cb available and so on..)
+* You will retrieve a lot of marker (colored bikes) where you can tap on any bike to view his information (bike remaining, place available, credit card support.)
 
-* You have also a button which zoom on your localization to watch the parks around you.
+* If you accept to get your location, the map will show you with blue dot.
 
 Build:
 * Android : OK.
