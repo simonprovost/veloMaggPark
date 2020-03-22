@@ -6,13 +6,13 @@
 </kbd>
 </p>
 
-Where should you let your bike from Tam in Montpellier
+Where could you let your bike In Montpellier ?
 
 You have an option in the official app of the Tam Montpellier, it's a personal experience to improve my skill with this kind of application.
 
-* You will retrieve a lot of marker (colored bikes) where you can tap on any bike to view his information (bike remaining, place available, credit card support.)
+* You will retrieve a lot of markers (colored bikes), you can tap on any bikes to view his information (bike remaining, place available, credit card support.)
 
-* If you accept to get your location, the map will show you with blue dot.
+* If you approve your location in the permissions of the app, the map will show you with blue dot.
 
 Build:
 * Android : OK.
