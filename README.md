@@ -16,17 +16,20 @@ You have an option in the official app of the Tam Montpellier, it's a personal e
 
 Build:
 * Android : OK.
-* IOS: Almost done, I have a little problem when I want to get the xml data.
+* IOS: Almost done, as soon as I have the time I buy a macbook to create an .IPA
 
 
-If you want to build the app in APK/IOS : You will need to have expo in your computer and run expo build:android or expo build:ios
+If you want to build the app in APK/IOS : You will need write the command from the react native documentation to build an app. (./gradlew AssembleRelease and so on..)
 
-# Few functionality
+# Navigation through the app
 
-![view markers](./2.gif)
-![check button localization](./1.gif)
+![app](./app.gif)
+
+# Take a zoom to our custom popup for better UI/UX
+ <img src="./popup.jpg">
 
 # Installation
 (yarn works as well)
-* sudo npm i
-* sudo npm start
+* sudo npm i.
+* sudo react-native start.
+* sudo react-native run-android(or ios but not yet works).
