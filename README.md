@@ -6,7 +6,7 @@
 </kbd>
 </p>
 
-Where should you let your bike from Tam in Montpellier
+Where could you let your bike In Montpellier ?
 
 You have an option in the official app of the Tam Montpellier, it's a personal experience to improve my skill with this kind of application.
 
