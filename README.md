@@ -12,7 +12,7 @@ You have an option in the official app of the Tam Montpellier, it's a personal e
 
 * You will retrieve a lot of markers (colored bikes), you can tap on any bikes to view his information (bike remaining, place available, credit card support.)
 
-* If you accept to get your location, the map will show you with blue dot.
+* If you approve your location in the permissions of the app, the map will show you with blue dot.
 
 Build:
 * Android : OK.
